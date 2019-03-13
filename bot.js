@@ -14,7 +14,7 @@ const client = new Discord.Client({disableEveryone: true});
 
 const prefix = "$";
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.token);
 
 client.on('ready',  () => {
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
