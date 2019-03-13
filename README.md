@@ -1,1 +1,2 @@
 # bot
+For educational purposes.
